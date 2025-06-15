@@ -104,7 +104,7 @@ Below are the contents of the custom tables that simulate SAP HR data.
 
 ### 2. 🧾 Custom Selection Screen
 
-The report starts with a clean selection screen for filters like name, personnel number, and date range.
+The report starts with a clean selection screen for filters like employee number and employee name.
 
 ![selection_screen](images/selection_screen.png)
 
