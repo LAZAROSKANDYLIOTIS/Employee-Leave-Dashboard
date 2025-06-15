@@ -89,13 +89,13 @@ This local class handles **user interactions** inside the ALV Grid.
 
 Below are the contents of the custom tables that simulate SAP HR data.
 
-![zhremployees_table_data.png](zhremployees_table_data.png)  
+![zhremployees_table](images/zhremployees_table.png) 
 *ZHREMPLOYEES - Simulated employee master data*
 
-![zhrabsences_table_data.png](zhrabsences_table_data.png)  
+![zhrabsences_table](images/zhrabsences_table.png)  
 *ZHRABSENCES - Simulated absence records*
 
-![zhrabsencetypes_table_data.png](zhrabsencetypes_table_data.png)  
+![zhrabsencetypes_table](image/zhrabsencetypes_table.png)  
 *ZHRABSENCETYPES - Simulated absence descriptions*
 
 ---
@@ -104,35 +104,55 @@ Below are the contents of the custom tables that simulate SAP HR data.
 
 The report starts with a clean selection screen for filters like name, personnel number, and date range.
 
-![selection_screen.png](selection_screen.png)
+![selection_screen](images/selection_screen.png)
+
+--
+
+### 3. 🔍 Custom F4 Help for Employee Name
+
+To enhance the user experience and ensure valid input, the **Employee Name (ENAME)** field on the selection screen is enhanced with a **custom F4 Help (Search Help)**.
+
+This custom F4 Help allows users to pick from actual employees that **have recorded absences**, improving both efficiency and accuracy.
+
+- When the user focuses on the `ENAME` field and presses **F4**, a custom popup appears.
+- The popup displays only those employees from `ZHREMPLOYEES` who have at least one entry in `ZHRABSENCES`.
+- This prevents users from selecting employees who have no absences, which would return empty results.
+
+#### F4 Help Button for Employee Name
+
+![F4 Help Button](images/emp_name_f4help.png)
+
+#### Employee Names Displayed After Pressing F4
+
+![F4 Help Results](images/emp_name_f4help_results.png)
 
 ---
 
-### 3. 🔎 Search by Name Pattern
+### 4. 🔎 Search by Name Pattern
 
 Users can search with wildcards like `*AKI` to filter employees by name.
 
-![name_search_aki.png](name_search_aki.png)
+![selection_screen_aki](images/selection_screen_aki.png)
 
 ---
 
-### 4. 📋 Results of Name Search
+### 5. 📋 Results of Name Search
 
 The result is an ALV showing all employees whose names match the pattern.
 
-![name_search_results_aki.png](name_search_results_aki.png)
+![search_results_aki](images/search_results_aki.png)
 
 ---
 
-### 5. 🔢 Search by Employee Number (1–8)
+### 6. 🔢 Search by Employee Number (1–8)
 
 Search for employees whose personnel numbers are between 1 and 8.
 
-![pernr_range_1_8.png](pernr_range_1_8.png)
+![selection_screen1_8](images/selection_screen1_8.png)
 
 ---
 
-### 6. 📄 Search Results (IDs 1–8)
+### 7. 📄 Search Results (IDs 1–8)
 
 Search results show:
 
@@ -140,19 +160,13 @@ Search results show:
 - Column reordering (ENAME before PERNR)
 - Alphabetical sorting by ENAME (ascending)
 
-![search_results_1_8screen.png](search_results_1_8screen.png)
+![search_results_1_8](images/search_results_1_8.png)
 
 ---
 
-### 7. 🖱️ Double-Click to See Absence Details
+### 8. 🖱️ Double-Click to See Absence Details
 
 Clicking on "Eleni Vasileiou" shows their leave details in a new ALV.
-
-![eleni_absence_details_click.png](eleni_absence_details_click.png)
-
----
-
-### 8. 📊 Absence Details View (Second ALV)
 
 This ALV includes:
 
@@ -160,7 +174,7 @@ This ALV includes:
 - Descending sort by Absence Days (`ABWTG`)
 - Sum of absence days at the bottom of the column using aggregation
 
-![absence_details_summary_sorted.png](absence_details_summary_sorted.png)
+![eleni_vasileiou_absence_details](images/eleni_vasileiou_absence_details.png)
 
 ---
 
