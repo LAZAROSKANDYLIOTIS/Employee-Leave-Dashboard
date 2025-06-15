@@ -95,7 +95,7 @@ Below are the contents of the custom tables that simulate SAP HR data.
 ![zhrabsences_table](images/zhrabsences_table.png)  
 *ZHRABSENCES - Simulated absence records*
 
-![zhrabsencetypes_table](image/zhrabsencetypes_table.png)  
+![zhrabsencetypes_table](images/zhrabsencetypes_table.png)  
 *ZHRABSENCETYPES - Simulated absence descriptions*
 
 ---
@@ -106,7 +106,7 @@ The report starts with a clean selection screen for filters like name, personnel
 
 ![selection_screen](images/selection_screen.png)
 
---
+---
 
 ### 3. 🔍 Custom F4 Help for Employee Name
 
@@ -188,5 +188,16 @@ This ALV includes:
   - `FACTORY` method
   - Functions, Sorting, aggregation, custom column text and position, events
   - Double-click handling with `SET HANDLER`
+ 
+---
+
+## 📁 Project Structure
+
+```text
+Sales-Order-Report/
+├── images/         # Folder containing JPG and PNG screenshots of the project
+├── src/            # Contains ABAP source code (classes, reports, includes)
+├── .abapgit.xml    # abapGit metadata file
+└── README.md       # Project documentation
 
 
