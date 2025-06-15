@@ -20,23 +20,25 @@ This project simulates core fields from **standard SAP HR tables** like `PA0001`
 
 ### Custom Tables Used:
 
-1. **ZHREMPLOYEES** (simulates PA0001)
+### 1. **ZHREMPLOYEES** (simulates PA0001)
 
    | Field | Description        |
    | ----- | ------------------ |
    | PERNR | Personnel Number   |
    | ENAME | Employee Full Name |
 
-2. **ZHRABSENCES** (simulates PA2001)
-   | Field   | Description                       |
-   | PERNR   | Personnel Number (FK)             |
-   | BEGDA   | Absence Start Date                |
-   | ENDDA   | Absence End Date                  |
-   | AWART   | Absence Type Code                 |
-   | ABWTG   | Absence Days (Quantitative value) |
-   | REMARKS | Additional Notes                  |
+### 2. `ZHRABSENCES` — simulates `PA2001`
 
-3. **ZHRABSENCETYPES** (simulates T554S)
+| Field   | Description                       |
+| ------- | --------------------------------- |
+| PERNR   | Personnel Number (FK)             |
+| BEGDA   | Absence Start Date                |
+| ENDDA   | Absence End Date                  |
+| AWART   | Absence Type Code                 |
+| ABWTG   | Absence Days (Quantitative value) |
+| REMARKS | Additional Notes                  |
+
+### 3. **ZHRABSENCETYPES** (simulates T554S)
 
    | Field | Description               |
    | ----- | ------------------------- |
