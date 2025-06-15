@@ -20,7 +20,7 @@ This project simulates core fields from **standard SAP HR tables** like `PA0001`
 
 ### Custom Tables Used:
 
-### 1. **ZHREMPLOYEES** (simulates PA0001)
+### 1. `ZHREMPLOYEES` — simulates `PA0001`
 
    | Field | Description        |
    | ----- | ------------------ |
@@ -38,7 +38,7 @@ This project simulates core fields from **standard SAP HR tables** like `PA0001`
 | ABWTG   | Absence Days (Quantitative value) |
 | REMARKS | Additional Notes                  |
 
-### 3. **ZHRABSENCETYPES** (simulates T554S)
+### 3. `ZHRABSENCETYPES` — simulates `T554S`
 
    | Field | Description               |
    | ----- | ------------------------- |
