@@ -91,7 +91,7 @@ This local class handles **user interactions** inside the ALV Grid.
 
 Below are the contents of the custom tables that simulate SAP HR data.
 
-![zhremployees_table](images/zhremployees_table.png) 
+![zhremployees_table](images/zhremployees_table.png)                            
 *ZHREMPLOYEES - Simulated employee master data*
 
 ![zhrabsences_table](images/zhrabsences_table.png)  
