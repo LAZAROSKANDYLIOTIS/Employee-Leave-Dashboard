@@ -172,7 +172,7 @@ Clicking on "Eleni Vasileiou" shows their leave details in a new ALV.
 
 This ALV includes:
 
-- Renamed columns (Absence Days, Remarks)
+- Renamed columns (ABWTG - Absence Days, Remarks - Leave Days)
 - Descending sort by Absence Days (`ABWTG`)
 - Sum of absence days at the bottom of the column using aggregation
 
