@@ -1,4 +1,4 @@
-# Human Resources: Employee Leave Dashboard
+# Employee Leave Dashboard
 
 This ABAP project provides an interactive **Employee Leave Dashboard** built entirely using both **Old and New ABAP Syntax**, showcasing advanced usage of the **CL\_SALV\_TABLE** class , **event handling**, and **OpenSQL data retrieval**.
 
